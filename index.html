@@ -27,7 +27,7 @@ ul.centered-list {display:inline-block;margin: 0;padding: 0;font-size:0.9em;}
 .card-theme-grey{height:20%}
 .card-theme-grey:hover{background-color:rgba(0, 24, 35, 0.1) !important; color:#ffffff !important; box-shadow:0 2px 5px 0 rgba(86, 86, 86, 1), 0 2px 10px 0 rgba(86, 86, 86, 1);}
 .subtitle-theme {color:#00ffec}
-.subtitle-dark-theme {color:#00bdb5}
+.subtitle-dark-theme,.alt-colour {color:#00bdb5}
 .title, .subtitle {display:block}
 .top-bar {border-top: 6px solid #00bdb5 !important}
 .examples-theme {font-size:0.9em;}
@@ -75,20 +75,14 @@ function close_sidebar() {
   <a href="#specifics" onclick="close_sidebar()" class="w3-bar-item w3-button">THE SPECIFICS</a>
   <a href="#prizes" onclick="close_sidebar()" class="w3-bar-item w3-button">PRIZES</a>
   <a href="#timeline" onclick="close_sidebar()" class="w3-bar-item w3-button">TIMELINE</a>
+  <a href="#faq" onclick="close_sidebar()" class="w3-bar-item w3-button">FAQ</a>
   <a href="#resources" onclick="close_sidebar()" class="w3-bar-item w3-button">RESOURCES</a>
   <a href="#contact" onclick="close_sidebar()" class="w3-bar-item w3-button">CONTACT US</a>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeh_J74RH0viLev5e9UVjMQYxd_7uMmv0uQwpCZF-Sr-IhUDg/viewform?usp=sf_link" onclick="close_sidebar()" class="w3-bar-item w3-button">REGISTER</a>
 </div>
 <div class="w3-top w3-container w3-main-theme ">
-	<div class="w3-bar w3-medium">
-	  <div class="w3-bar-item w3-right w3-button w3-hamburger-theme w3-hide-large fa fa-bars" onclick="open_sidebar()"></div>
-	  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeh_J74RH0viLev5e9UVjMQYxd_7uMmv0uQwpCZF-Sr-IhUDg/viewform?usp=sf_link" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium impt-btn-theme"><b>REGISTER</b></a>
-	  <a href="#contact" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>CONTACT US</b></a>
-	  <a href="#resources" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>RESOURCES</b></a>
-	  <a href="#timeline" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>TIMELINE</b></a>
-	  <a href="#prizes" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>PRIZES</b></a>
-	  <a href="#specifics" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>THE SPECIFICS</b></a>
-	  <a href="#challenge" class="w3-bar-item w3-right w3-button w3-btn-theme w3-hide-small w3-hide-medium"><b>THE CHALLENGE</b></a>
+	<div class="w3-bar w3-xlarge">
+	  <div class="w3-bar-item w3-right w3-button w3-hamburger-theme fa fa-bars" onclick="open_sidebar()"></div> 
 	  <a href="#main-page" class="w3-bar-item w3-left home-btn home-btn-theme w3-large"><b>Bits &amp; Bolts Hackathon</b></a>
 	</div>
 </div>
@@ -410,13 +404,13 @@ function close_sidebar() {
 							<td class="event">InnoTech Showcase</td>
 						</tr>
 						<tr>
-							<td class="date">29 Apr</td>
-							<td class="date">29 Apr</td>
+							<td class="date">03 May</td>
+							<td class="date">03 May</td>
 							<td class="event">Shortlist results</td>
 						</tr>
 						<tr>
-							<td class="date">29 Apr</td>
-							<td class="date">6 May</td>
+							<td class="date">03 May</td>
+							<td class="date">05 May</td>
 							<td class="event">Sign up for consultation sessions</td>
 						</tr>
 						<tr>
@@ -436,6 +430,19 @@ function close_sidebar() {
 				</div>
 			</div>
 		</div>
+</section>
+<section id="faq" class="w3-main-theme full-screen w3-container">
+	<div class="w3-display-container full-screen">
+		<div class="w3-container w3-content">
+			<h1 class="title w3-wide">FAQ</h1>
+		</div>
+		<div class="w3-container w3-content">
+			<dl>
+				<dt><span class="alt-colour">Will participants be provided datasets?</span></dt>
+				<dd>&nbsp;&nbsp;No, participants will have to source for their own datasets.</dd>
+			</dl>
+		</div>
+	</div>	
 </section>
 <section id="resources" class="w3-main-theme full-screen w3-container">
 	<div class="w3-display-container full-screen">
